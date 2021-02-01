@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="wrapper">
+        <p id="answer" class="answer"></p>
+        <label>Length: </label>
+        <input type="number" maxlength="100" value='20' id='length'>
+
+        <div class="checks">
+            <label class="label">Enable UpperCase Alphabets:</label>
+            <input type="checkbox" id="upper" checked class="val">
+        </div>
+
+        <div class="checks">
+            <label class="label">Enable LowerCase Alphabets:</label>
+            <input type="checkbox" id="lower" checked class="val">
+        </div>
+
+        <div class="checks">
+            <label class="label">Enable UpperCase Alphabets:</label>
+            <input type="checkbox" id="number" checked class="val">
+        </div>
+        <div class="checks">
+            <label class="label">Enable UpperCase Alphabets:</label>
+            <input type="checkbox" id="symbol" checked class="val">
+        </div>
+
+        <button id="generate" class="btn password__btn">Generate Your Password</button>
+    </div>
+</body>
+</html>
