@@ -1,0 +1,29 @@
+body {
+    background-color: purple;
+}
+body > h1 {
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+}
+.user__input {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   top: 4rem;
+   left: 11rem;
+   width: 70%;
+   background-color: white;
+   padding: 15px 30px;
+   border-radius: 10px;
+   line-height: 1.5;
+}
+.length__input > input {
+    border-radius: 10%;
+    border: none;
+    background-color: rgba(241, 253, 71, 0.795);
+    padding: 5px;
+    margin-left: 5px;
+}
