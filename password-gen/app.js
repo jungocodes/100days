@@ -1,6 +1,6 @@
 // Creating character sets
 
-// String.fromCharCode() function is used to create a string from the given sequence of UTF-16 code units.
+//* String.fromCharCode() function is used to create a string from the given sequence of UTF-16 code units.
 
 
 // Generating Random Uppercase Letters
@@ -35,7 +35,7 @@ let userSymbol = document.getElementById("symbol")
 let copy = document.getElementById("copy")
 let generate = document.getElementById("generate")
 
-// declaring a constant object where random values generated are stored
+//* declaring a constant object where random values generated are stored
 const randomFunctions = {
     upper:getUpperCase,
     lower: getLowerCase,
@@ -51,7 +51,7 @@ generate.addEventListener('click', () => {
     const hasNumber = userNumber.checked;
     const hasSymbol = userSymbol.checked;
 
-    // .innerText simply means any thing this function returns would be displayed in the DOM in the answer field
+    //* .innerText simply means any thing this function returns would be displayed in the DOM in the answer field
     return answer.innerHTML = generatePsswd(hasUpper, hasLower, hasSymbol, hasUpper, length, hasNumber)
 })
 
